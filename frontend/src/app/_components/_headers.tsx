@@ -15,7 +15,7 @@ const Header = () => {
             <nav>
                 {navLinks.map((navLink, index) => {
                     return (
-                        <Link className="text-emerald-400" href={navLink.link} key={index}>{navLink.name}</Link>
+                        <Link className="hover:text-emerald-400 text-2xl" href={navLink.link} key={index}>{navLink.name}</Link>
                     );
                 })}
             </nav>
