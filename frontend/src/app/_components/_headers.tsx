@@ -8,9 +8,9 @@ const Header = () => {
         }
     ]
     return (
-        <header className="flex justify-between">
+        <header className="flex justify-between mx-4">
             <div>
-                <h1 className="text-4xl">VOICEAGE</h1>
+                <h1 className="text-4xl text-emerald-300">VOICEAGE</h1>
             </div>
             <nav>
                 {navLinks.map((navLink, index) => {
