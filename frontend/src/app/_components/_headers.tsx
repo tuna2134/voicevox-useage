@@ -13,7 +13,7 @@ const Header = () => {
                 <h1 className="text-4xl">VOICEAGE</h1>
             </div>
             <nav>
-                {navLinks.map((navlink, index) => {
+                {navLinks.map((navLink, index) => {
                     return (
                         <Link className="text-emerald-400" href={navLink.link} key={index}>navLink.name</Link>
                     );
