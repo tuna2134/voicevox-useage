@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="flex justify-between mx-16 my-2">
             <div>
-                <h1 className="text-4xl text-emerald-300">VOICEAGE</h1>
+                <h1 className="text-4xl">VOICEAGE</h1>
             </div>
             <nav className="flex items-center">
                 {navLinks.map((navLink, index) => {
