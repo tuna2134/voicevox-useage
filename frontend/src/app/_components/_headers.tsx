@@ -8,7 +8,7 @@ const Header = () => {
         }
     ]
     return (
-        <header className="flex justify-between mx-4 my-2">
+        <header className="flex justify-between mx-16 my-2">
             <div>
                 <h1 className="text-4xl text-emerald-300">VOICEAGE</h1>
             </div>
