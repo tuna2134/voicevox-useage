@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
     const navLinks = [
         {
-            name: "Official",
+            name: "Official site",
             link: "https://voicevox.hiroshiba.jp",
         }
     ]
